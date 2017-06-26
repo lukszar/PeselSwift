@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		373F30E61F01A8B700C963A6 /* PeselSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373F30E51F01A8B700C963A6 /* PeselSwift.framework */; };
 		378920B71EFDAA0000830EA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378920B61EFDAA0000830EA1 /* AppDelegate.swift */; };
 		378920B91EFDAA0000830EA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378920B81EFDAA0000830EA1 /* ViewController.swift */; };
 		378920BC1EFDAA0000830EA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378920BA1EFDAA0000830EA1 /* Main.storyboard */; };
@@ -35,7 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		373F30E51F01A8B700C963A6 /* PeselSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PeselSwift.framework; path = Carthage/Build/iOS/PeselSwift.framework; sourceTree = "<group>"; };
 		378920B31EFDAA0000830EA1 /* PeselSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeselSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		378920B61EFDAA0000830EA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		378920B81EFDAA0000830EA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +47,7 @@
 		378920D21EFDAA0000830EA1 /* PeselSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeselSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		378920D61EFDAA0000830EA1 /* PeselSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeselSwiftDemoUITests.swift; sourceTree = "<group>"; };
 		378920D81EFDAA0000830EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378920E51EFDAB9A00830EA1 /* PeselSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PeselSwift.framework; path = Carthage/Build/iOS/PeselSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				373F30E61F01A8B700C963A6 /* PeselSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +130,7 @@
 		378920E41EFDAB9A00830EA1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				373F30E51F01A8B700C963A6 /* PeselSwift.framework */,
+				378920E51EFDAB9A00830EA1 /* PeselSwift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
