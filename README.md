@@ -3,7 +3,7 @@
 </p>
 
 ![Build passing](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat)
-![Swift 3.0](https://img.shields.io/badge/in-swift%203.0-orange.svg)
+![Swift 3.0](https://img.shields.io/badge/in-swift%204.0-orange.svg)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 
