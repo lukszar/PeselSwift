@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		373F30E61F01A8B700C963A6 /* PeselSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373F30E51F01A8B700C963A6 /* PeselSwift.framework */; };
+		373510E01F7CE9B800E6E0D0 /* PeselSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373510DD1F7CE9AE00E6E0D0 /* PeselSwift.framework */; };
+		373510E11F7CE9B800E6E0D0 /* PeselSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 373510DD1F7CE9AE00E6E0D0 /* PeselSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		378920B71EFDAA0000830EA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378920B61EFDAA0000830EA1 /* AppDelegate.swift */; };
 		378920B91EFDAA0000830EA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378920B81EFDAA0000830EA1 /* ViewController.swift */; };
 		378920BC1EFDAA0000830EA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378920BA1EFDAA0000830EA1 /* Main.storyboard */; };
@@ -18,6 +19,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		373510DC1F7CE9AE00E6E0D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 373510D71F7CE9AE00E6E0D0 /* PeselSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 37B60FEA1EFD403F0002376F;
+			remoteInfo = PeselSwift;
+		};
+		373510DE1F7CE9AE00E6E0D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 373510D71F7CE9AE00E6E0D0 /* PeselSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 37B60FF31EFD403F0002376F;
+			remoteInfo = PeselSwiftTests;
+		};
+		373510E21F7CE9B800E6E0D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 373510D71F7CE9AE00E6E0D0 /* PeselSwift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 37B60FE91EFD403F0002376F;
+			remoteInfo = PeselSwift;
+		};
 		378920C81EFDAA0000830EA1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 378920AB1EFDAA0000830EA1 /* Project object */;
@@ -34,8 +56,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		373510E41F7CE9B800E6E0D0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				373510E11F7CE9B800E6E0D0 /* PeselSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		373F30E51F01A8B700C963A6 /* PeselSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PeselSwift.framework; path = Carthage/Build/iOS/PeselSwift.framework; sourceTree = "<group>"; };
+		373510D71F7CE9AE00E6E0D0 /* PeselSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PeselSwift.xcodeproj; path = ../PeselSwift.xcodeproj; sourceTree = "<group>"; };
 		378920B31EFDAA0000830EA1 /* PeselSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeselSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		378920B61EFDAA0000830EA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		378920B81EFDAA0000830EA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				373F30E61F01A8B700C963A6 /* PeselSwift.framework in Frameworks */,
+				373510E01F7CE9B800E6E0D0 /* PeselSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +113,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		373510D81F7CE9AE00E6E0D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				373510DD1F7CE9AE00E6E0D0 /* PeselSwift.framework */,
+				373510DF1F7CE9AE00E6E0D0 /* PeselSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		378920AA1EFDAA0000830EA1 = {
 			isa = PBXGroup;
 			children = (
@@ -84,7 +129,7 @@
 				378920CA1EFDAA0000830EA1 /* PeselSwiftDemoTests */,
 				378920D51EFDAA0000830EA1 /* PeselSwiftDemoUITests */,
 				378920B41EFDAA0000830EA1 /* Products */,
-				378920E41EFDAB9A00830EA1 /* Frameworks */,
+				373510D71F7CE9AE00E6E0D0 /* PeselSwift.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,14 +174,6 @@
 			path = PeselSwiftDemoUITests;
 			sourceTree = "<group>";
 		};
-		378920E41EFDAB9A00830EA1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				373F30E51F01A8B700C963A6 /* PeselSwift.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,11 +184,12 @@
 				378920AF1EFDAA0000830EA1 /* Sources */,
 				378920B01EFDAA0000830EA1 /* Frameworks */,
 				378920B11EFDAA0000830EA1 /* Resources */,
-				378920E71EFDAC6E00830EA1 /* ShellScript */,
+				373510E41F7CE9B800E6E0D0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				373510E31F7CE9B800E6E0D0 /* PBXTargetDependency */,
 			);
 			name = PeselSwiftDemo;
 			productName = PeselSwiftDemo;
@@ -234,6 +272,12 @@
 			mainGroup = 378920AA1EFDAA0000830EA1;
 			productRefGroup = 378920B41EFDAA0000830EA1 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 373510D81F7CE9AE00E6E0D0 /* Products */;
+					ProjectRef = 373510D71F7CE9AE00E6E0D0 /* PeselSwift.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				378920B21EFDAA0000830EA1 /* PeselSwiftDemo */,
@@ -242,6 +286,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		373510DD1F7CE9AE00E6E0D0 /* PeselSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PeselSwift.framework;
+			remoteRef = 373510DC1F7CE9AE00E6E0D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		373510DF1F7CE9AE00E6E0D0 /* PeselSwiftTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = PeselSwiftTests.xctest;
+			remoteRef = 373510DE1F7CE9AE00E6E0D0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		378920B11EFDAA0000830EA1 /* Resources */ = {
@@ -269,23 +330,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		378920E71EFDAC6E00830EA1 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/PeselSwift.framework",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		378920AF1EFDAA0000830EA1 /* Sources */ = {
@@ -316,6 +360,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		373510E31F7CE9B800E6E0D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PeselSwift;
+			targetProxy = 373510E21F7CE9B800E6E0D0 /* PBXContainerItemProxy */;
+		};
 		378920C91EFDAA0000830EA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 378920B21EFDAA0000830EA1 /* PeselSwiftDemo */;
@@ -446,6 +495,7 @@
 		378920DC1EFDAA0000830EA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ARPPQ7YPQB;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -464,6 +514,7 @@
 		378920DD1EFDAA0000830EA1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ARPPQ7YPQB;
 				FRAMEWORK_SEARCH_PATHS = (

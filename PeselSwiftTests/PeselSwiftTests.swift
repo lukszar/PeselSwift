@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import PeselSwift
+import PeselSwift
 
 class PeselSwiftTests: XCTestCase {
     
